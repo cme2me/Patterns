@@ -1,7 +1,5 @@
-package com.example.patterns;
+package com.example.patterns.factory;
 
-import com.example.patterns.factory.FileFactory;
-import com.example.patterns.factory.FileFactoryImpl;
 import com.example.patterns.factory.model.FileModel;
 import com.google.common.io.Files;
 
