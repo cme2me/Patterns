@@ -19,6 +19,6 @@ public class FileFactoryImpl implements FileFactory {
             case TXT:
                 return new FileModel(type, fileInputStream.readAllBytes());
         }
-        throw new UnsupportedTypeException();
+        throw new UnsupportedTypeException("Расширение файла не поддерживается");
     }
 }
